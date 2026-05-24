@@ -1,35 +1,36 @@
 # Shashank C M
 
-I’m a software engineer focused on building reliability into systems that use LLMs. Instead of relying on fragile prompt engineering, I spend my time designing deterministic scaffolding, state-enforced runtimes, and predictable data pipelines.
+I’m a software engineer focused on building predictable infrastructure, reliable data pipelines, and state-enforced runtimes—both for distributed event systems and AI orchestration. 
+
+I focus on moving away from fragile abstractions toward robust, deterministic system architectures.
 
 ---
 
-### Architectural Focus:
+### Core Engineering Focus:
 
-* **Orchestration Runtimes:** Designing multi-agent loops with automated execution tracking, strict state verification hooks, and localized error handling to stop agents from spiraling.
-* **Context & State Management:** Handling token boundaries, implementing dynamic window scaling, and mitigating context drift during long-running tasks.
-* **Source Ingestion:** Building chunking strategies and structural extraction pipelines that preserve the narrative flow and hierarchy of massive technical documents.
-* **Evaluation & Testing:** Building headless benchmarking harnesses and control-run frameworks to catch regressions in agent behavior before code hits production.
+* **Distributed Systems & Telemetry:** Experience synchronizing real-time location telemetry with distributed event queues and optimizing kitchen-to-table workflow timing.
+* **Orchestration Runtimes:** Designing execution loops with automated state-verification hooks and localized error-budget handlers to manage complex agent behaviors.
+* **Pipeline & Data Engineering:** Building smart chunking pipelines, local caching layers (SHA-256), and structural data extraction architectures for high-fidelity source ingestion.
+* **Full-Stack Tooling:** Constructing modular web applications and developer tools with strict session security, localized state tracking (ORMs), and automatic schema mapping.
 
 ---
 
-### Projects:
+### Featured Systems:
 
-#### [claude-power-loom](https://github.com/shashankcm95/claude-power-loom)
-A dual-layer multi-agent runtime environment built to keep complex execution cycles reliable and drift-free.
-* **The Architecture:** Separated into a low-level **Substrate** layer and a high-level **HETS** (Hierarchical Engineering Team Simulation) layer. 
-* **The Mechanics:** The Substrate layer manages environment reliability using a "hooks before, persistence around, verification after" model. The orchestration layer utilizes a 21-pattern library to coordinate specialized agent personas (such as Builders and Auditors) bound by formal execution contracts.
+#### [claude-power-loom](https://github.com/shashankcm95/claude-power-loom) | *Agent Runtimes*
+A dual-layer orchestration environment designed to handle state decay and context drift during complex multi-agent execution loops.
+* **The Architecture:** Separated into a low-level **Substrate** layer (using a "hooks before, persistence around, verification after" execution model) and a high-level **HETS** layer that manages specialized agent personas bound by formal interaction contracts.
 
-#### [TextBook_to_Tutorial_Converter](https://github.com/shashankcm95/TextBook_to_Tutorial_Converter)
-A full-stack, automated parsing and compilation web application that restructures dense technical textbooks into modular, interactive documentation.
-* **The Stack & AI Pipeline:** Built using Next.js 14 (App Router) and TypeScript. It utilizes a hybrid AI layout—orchestrating `gpt-4o` for streaming narrative synthesis and `gpt-4o-mini` for cost-effective structural parsing, interactive quiz generation, and fidelity scoring.
-* **Data & Persistence Architecture:** Features an S3-compatible object storage integration paired with a custom SHA-256 caching layer to eliminate redundant PDF ingestion. State tracking is managed locally via SQLite and Drizzle ORM, wrapped in a lightweight, HMAC-SHA256 authenticated session infrastructure.
+#### [TextBook_to_Tutorial_Converter](https://github.com/shashankcm95/TextBook_to_Tutorial_Converter) | *Data Pipelines & Web Infra*
+A full-stack parsing and compilation web app that restructures dense technical textbooks into modular documentation.
+* **The Architecture:** Combines Next.js 14 and TypeScript with an S3-compatible storage layer and a SHA-256 caching mechanism. Orchestrates a dual-model pipeline (`gpt-4o`/`gpt-4o-mini`) for real-time streaming synthesis, structural verification, and local state management via Drizzle ORM.
 
-#### [Portfolio-Website-Builder](https://github.com/shashankcm95/Portfolio-Website-Builder)
-A utility that maps structured data schemas against real-time version control states to automatically generate and compile synchronized developer profiles.
+#### [Portfolio-Website-Builder](https://github.com/shashankcm95/Portfolio-Website-Builder) | *Automation & Tooling*
+An automation tool built to parse structured document schemas and map them against live version control states to dynamically generate developer portfolios.
+* **The Architecture:** Designed as an automated compilation pipeline that translates static, structured resume inputs alongside live GitHub API data structures into clean, deployment-ready web assets.
 
-#### [AADI (Arrival-Aware Dine In)](https://github.com/shashankcm95/AADI)
-A contextual service orchestration system designed to synchronize distributed event queues with real-time telemetry data.
+#### [AADI (Arrival-Aware Dine In)](https://github.com/shashankcm95/AADI) | *Event-Driven Systems*
+A contextual service orchestration system built to synchronize distributed event queues and kitchen ticket fire times with real-time location telemetry data.
 
 ---
 
