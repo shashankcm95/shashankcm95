@@ -5,8 +5,13 @@ boundaries, verification gates, and recovery paths around things that fail
 non-deterministically (LLM agents, distributed event queues, ingest pipelines).
 
 My north star is a specific engineering claim: **you make failures cheap,
-observable, and reversible before you make them rare.** Most of my work is about
-containing the blast radius of a bad write, not pretending bad writes won't happen.
+observable, and reversible before you make them rare.**.  
+Most of my work is about containing the blast radius of a bad write, not pretending 
+bad writes won't happen. I design autonomous loops to be inherently 
+transparent and recoverable, ensuring they scale reliably with project demands.
+By treating LLM outputs as untrusted data and wrapping every action in transaction 
+boundaries, I build systems that contain the blast radius of inevitable errors 
+rather than relying on the hope that models will eventually stop hallucinating.
 
 ---
 
